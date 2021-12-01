@@ -26,8 +26,6 @@ func Test_Test_checkMaxKubeVersionAnnotation(t *testing.T) {
 	type args struct {
 		annotations   map[string]string
 		bundleDir     string
-		filePath      string
-		ocpLabelRange string
 	}
 	tests := []struct {
 		name        string
